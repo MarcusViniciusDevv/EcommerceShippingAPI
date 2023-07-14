@@ -1,5 +1,5 @@
 using EcommerceShippingRepository.Implementação;
-using EcommerceShippingRepository.Mycontexct;
+using EcommerceShippingRepository.MyContext;
 using EcommerceShippingRepository.Produtos;
 using EcommerceShippingService.Implementação;
 using EcommerceShippingService.Interface;

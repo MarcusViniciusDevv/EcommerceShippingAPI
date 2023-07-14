@@ -1,5 +1,5 @@
 ﻿using EcommerceShippingDomain.Entidades.Produtos;
-using EcommerceShippingRepository.Mycontexct;
+using EcommerceShippingRepository.MyContext;
 using EcommerceShippingRepository.Produtos;
 using Microsoft.EntityFrameworkCore;
 using System;

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using EcommerceShippingDomain.Entidades.Produtos;
 
-namespace EcommerceShippingRepository.Mycontexct
+namespace EcommerceShippingRepository.MyContext
 {
     public class RepositoryContext : DbContext
     {

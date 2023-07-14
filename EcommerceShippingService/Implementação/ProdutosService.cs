@@ -16,9 +16,9 @@ namespace EcommerceShippingService.Implementação
             _produtosRepository = produtosRepository;
         }       
 
-        public Task AtualizarProdutoById(Guid id, decimal preco, string Nome, int Quantidade)
+        public Task AtualizarProdutoById(Guid id, decimal preco, string nome, int quantidade)
         {
-            var product =  _produtosRepository.AtualizarProdutoById(id, preco, Nome, Quantidade);
+            var product =  _produtosRepository.AtualizarProdutoById(id, preco, nome, quantidade);
             return product;
 
         }
